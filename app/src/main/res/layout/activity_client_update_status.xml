@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.ClientUpdateStatusActivity">
+
+    <TextView
+        android:id="@+id/tvCurrentResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="current status"/>
+
+    <EditText
+        android:id="@+id/etUpdateResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="updated result"/>
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update in Database and Blockchain"/>
+
+</LinearLayout>
