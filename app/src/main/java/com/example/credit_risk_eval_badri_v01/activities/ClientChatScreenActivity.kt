@@ -91,7 +91,6 @@ class ClientChatScreenActivity : AppCompatActivity() {
                         val data = snapshot1.getValue(MessageModel::class.java)
                         list.add(data!!)
                     }
-
                     binding.rvChat.adapter = MessageAdapter(this@ClientChatScreenActivity,list)
 
                 }
